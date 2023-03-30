@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    
+    <title>Grid</title>
+</head>
+<body style="height: 800px;">
+  <!-- <div class ="text">
+    In this grid you can give snakes and ladders as inputs. The algorithm computes the shortest path to reach the target using Breadth First Search algorithm.
+  </div> -->
+    <div class="outer-div">
+    <div class="grid-container">
+
+         <div id="grid">
+
+         </div>
+
+
+         <div class="control-panel">
+         <div class="snakes-ladders">
+             <div class="checkers">
+             <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="snake-check-box">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Snakes
+                </label>
+              </div>
+              <br>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="ladders-check-box" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Ladders
+                </label>
+              </div>
+              </div>
+              <div class="submit-div">
+                <button id="reset">
+                  <a href="/grid.html" style="color:white">Reset</a>
+               </button>
+                <button id="submit">
+                   Submit
+                </button>
+              </div>
+         </div>
+
+         <!-- <div>
+          <div class="dice1">
+            <div class="circle"></div>
+          </div>
+         </div> -->
+
+         <div class="dice">
+            <div class="face front"></div>
+            <div class="face back"></div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+         </div>
+
+         </div>
+    </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
